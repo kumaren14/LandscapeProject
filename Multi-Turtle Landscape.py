@@ -30,9 +30,7 @@ ian.forward(525)
 ian.right(120)
 ian.forward(475)
 ian.left(145)
+ian.forward(350)
 ian.right
-
-ian.forward(325)
-
 
 turtle.exitonclick()
