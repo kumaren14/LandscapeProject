@@ -47,8 +47,19 @@ ian.penup()
 ian.goto(-300, 300)
 ian.left(45)
 
-alan.color("forest green")
-
-
+alan.color("green")
+alan.goto(-500, -300)
+alan.begin_fill()
+alan.forward(1000)
+alan.right(90)
+alan.forward(200)
+alan.right(90)
+alan.forward(1000)
+alan.right(90)
+alan.forward(200)
+alan.end_fill()
 
 turtle.exitonclick()
+
+ellie.penup()
+
