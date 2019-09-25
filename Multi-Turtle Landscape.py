@@ -59,7 +59,16 @@ alan.right(90)
 alan.forward(200)
 alan.end_fill()
 
+ellie.penup()
+ellie.goto(-300, -300)
+ellie.color("brown")
+ellie.pendown()
+ellie.begin_fill()
+ellie.forward(80)
+ellie.left(90)
+ellie.forward(10)
+
 turtle.exitonclick()
 
-ellie.penup()
+
 
